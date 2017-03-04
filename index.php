@@ -1,5 +1,3 @@
-<!-- This is the basic webpage--> 
-<!-- We call it a hypertext markup language document -->
 <!DOCTYPE html>
 <html lang="en">
 <head> 
@@ -8,6 +6,30 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- include the google font for the styles -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <!-- adding a bit of style here using css in the header -->
+  <style>
+  /*changing the background color and the font of the navbar, and removing the border*/
+  .navbar-default{
+      background-color: #fff;
+      border: none;
+      font-family:'Playfair Display', serif; 
+    }
+  /*padding the  section so we get some room between the navbar and the first item */
+    #section{
+      padding-top: 100px;
+    }
+    /*padding the bottom so our copywrite is positioned nicely*/
+    body {
+     padding-bottom: 50px; 
+    }
+    /*changing teh  font and increasing the size of the font*/
+    footer{
+      font-family:'Playfair Display', serif; 
+      font-size: 24px;
+    }
+  </style>
 
 </head>
 <body>
